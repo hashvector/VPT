@@ -14,9 +14,3 @@
 .hero-img {
   width: 100%;
 }
-
-.hero-textbox {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-}
