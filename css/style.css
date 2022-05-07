@@ -50,7 +50,6 @@
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   align-items: center;
-
 }
 
 .hero-description {
@@ -122,4 +121,9 @@
   font-size: 1.7rem;
   line-height: 1.7;
   color: #6c757d;
+}
+
+/* Courses Section */
+.courses-section {
+  padding: 9.6rem 0;
 }
