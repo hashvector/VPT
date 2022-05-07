@@ -50,16 +50,24 @@
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   align-items: center;
+
 }
 
 .hero-description {
   font-size: 1.9rem;
   line-height: 1.6;
   margin-bottom: 4rem;
+  color: #495057;
+}
+
+.hero-imgbox {
+  height: 40rem;
 }
 
 .hero-img {
   width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .hero-name {
@@ -70,7 +78,6 @@
 .showcase-section {
   padding: 4.8rem 0 9.6rem 0;
   /* background: #fdfffc; */
-
 }
 
 .showcase-textbox {
@@ -85,21 +92,34 @@
 
 .cards {
   gap: 3rem;
+  padding: 0 5rem;
 }
 
 .card {
   text-align: center;
-  padding: 3rem;
+  padding: 4rem 3rem;
   box-shadow: 0 0 0 1px #e9ebec;
-  border-bottom: 3px solid #6c757d;
-  border-radius: 0.5rem;
+  border-bottom: 7px solid #6c757d;
+  border-radius: 0.9rem;
+  transition: all 0.3s;
 }
 
-/* .card-icon{
+.card:hover {
+  transform: translateY(-1rem);
+}
 
-} */
+.card-icon {
+  height: 3rem;
+  width: 3rem;
+  margin-bottom: 2rem;
+  padding: 1.2rem;
+  color: #fbf3ef;
+  border-radius: 50%;
+  background: #6c757d;
+}
 
 .card-text {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   line-height: 1.7;
+  color: #6c757d;
 }
