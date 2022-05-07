@@ -132,8 +132,21 @@
   box-shadow: 0 0 0 1px #e9ebec;
   border-bottom: 7px solid #6c757d;
   border-radius: 0.9rem;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 0.5rem;
+  position: relative;
+}
+
+.outcome {
+  position: absolute;
+  top: 0;
+  transform: translateX(100%);
+  z-index: 1;
+  background: #fbf3ef;
+  padding: 2rem;
+}
+
+.course:hover {
 }
 
 .course-img {
