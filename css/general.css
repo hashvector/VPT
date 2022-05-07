@@ -53,6 +53,15 @@ body {
   color: #6c757d;
 }
 
+.sub-heading {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #3B3E3F;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
 .btn:link,
 .btn:visited {
   text-decoration: none;
