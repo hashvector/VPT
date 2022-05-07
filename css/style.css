@@ -69,7 +69,8 @@
 /* Showcase Section */
 .showcase-section {
   padding: 4.8rem 0 9.6rem 0;
-  background: #fdfffc;
+  /* background: #fdfffc; */
+
 }
 
 .showcase-textbox {
@@ -94,6 +95,11 @@
   border-radius: 0.5rem;
 }
 
+/* .card-icon{
+
+} */
+
 .card-text {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  line-height: 1.7;
 }
