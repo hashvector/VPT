@@ -15,10 +15,56 @@ html {
 
 body {
   font-family: Rubik;
+  color: #343a40;
 }
 
 .container {
-  max-width: 120rem;
+  max-width: 130rem;
   margin: 0 auto;
   padding: 0 3.2rem;
+}
+
+.heading-primary {
+  font-size: 4rem;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.9rem;
+  transition: all 0.3s;
+}
+
+.btn.btn--outline:link,
+.btn.btn--outline:visited {
+  color: #3b3e3f;
+  background: #e9ebec;
+}
+
+.btn.btn--outline:hover,
+.btn.btn--outline:active {
+  background: #fff;
+  box-shadow: inset 0 0 0 3px #e9ebec;
+}
+
+.btn.btn--full:link,
+.btn.btn--full:visited {
+  color: #fbf3ef;
+  background: #343a40;
+}
+
+.btn.btn--full:hover,
+.btn.btn--full:active {
+  background: #495057;
 }
