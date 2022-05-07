@@ -14,3 +14,7 @@
 .hero-img {
   width: 100%;
 }
+
+.hero-name{
+  font-weight: 600;
+}
