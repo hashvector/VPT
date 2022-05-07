@@ -47,6 +47,12 @@ body {
   margin-bottom: 2rem;
 }
 
+.text-description {
+  font-size: 1.7rem;
+  line-height: 1.7;
+  color: #6c757d;
+}
+
 .btn:link,
 .btn:visited {
   text-decoration: none;

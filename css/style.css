@@ -90,7 +90,7 @@
 
 .cards {
   gap: 3rem;
-  padding: 0 3rem;
+  padding: 0 3 rem;
 }
 
 .card {
@@ -114,12 +114,6 @@
   color: #fbf3ef;
   border-radius: 50%;
   background: #6c757d;
-}
-
-.card-text {
-  font-size: 1.7rem;
-  line-height: 1.7;
-  color: #6c757d;
 }
 
 /* Courses Section */
