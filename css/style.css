@@ -144,6 +144,18 @@
   z-index: 1;
   background: #fbf3ef;
   padding: 2rem;
+  height: 100%;
+}
+
+.outcome-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.outcome-item {
+  font-size: 1.4rem;
 }
 
 .course:hover {
