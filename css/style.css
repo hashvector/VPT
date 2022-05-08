@@ -186,7 +186,8 @@
 }
 
 .testimonials-box {
-  gap: 3rem;
+  column-gap: 3rem;
+  row-gap: 6rem;
 }
 
 .testimonial {
