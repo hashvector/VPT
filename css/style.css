@@ -184,3 +184,22 @@
 .testimonials-section {
   padding: 4.8rem 0 9.6rem 0;
 }
+
+.testimonials-box {
+  gap: 3rem;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+
+
+.testimonial-name {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
