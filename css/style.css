@@ -135,7 +135,7 @@
 
 .course:hover {
   transform: translateY(-1rem);
-  z-index: 2;
+  z-index: 1;
 }
 
 .outcome {
@@ -148,6 +148,7 @@
   height: 100%;
   width: 105%;
   border-radius: 0.9rem;
+  opacity: 0.95;
 }
 
 .outcome--right {
