@@ -120,10 +120,6 @@
   padding: 6.8rem 0 9.6rem 0;
 }
 
-.courses-textbox {
-  padding-bottom: 3rem;
-}
-
 .courses {
   gap: 2rem;
 }
@@ -182,4 +178,9 @@
 
 .course-cta {
   margin: 1rem 0;
+}
+
+/* Testimony Section */
+.testimonials-section {
+  padding: 4.8rem 0 9.6rem 0;
 }

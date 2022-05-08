@@ -53,10 +53,14 @@ body {
   color: #6c757d;
 }
 
+.textbox {
+  padding-bottom: 3rem;
+}
+
 .sub-heading {
   font-size: 2rem;
   font-weight: 500;
-  color: #3B3E3F;
+  color: #3b3e3f;
   text-transform: uppercase;
   display: block;
   margin-bottom: 1.5rem;
