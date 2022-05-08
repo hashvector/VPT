@@ -141,7 +141,6 @@
 .outcome {
   position: absolute;
   top: 0;
-  z-index: 1;
   color: #fbf3ef;
   background: #495057;
   padding: 1.5rem;
