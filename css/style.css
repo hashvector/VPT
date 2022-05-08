@@ -191,11 +191,16 @@
 
 .testimonial {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 3rem;
 }
 
-
+.img-placeholder {
+  padding: 2rem;
+  background: #495057;
+  color: #fbf3ef;
+  border-radius: 50%;
+}
 
 .testimonial-name {
   font-size: 1.6rem;
