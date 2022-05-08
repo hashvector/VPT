@@ -145,7 +145,7 @@
   background: #fbf3ef;
   padding: 1.5rem;
   height: 100%;
-  width: 110%;
+  width: 105%;
 }
 
 .outcome-list {
@@ -157,7 +157,7 @@
 
 .outcome-item {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   font-size: 1.4rem;
 }
 
