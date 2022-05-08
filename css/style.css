@@ -143,22 +143,22 @@
   transform: translateX(100%);
   z-index: 1;
   background: #fbf3ef;
-  padding: 2rem;
+  padding: 1.5rem;
   height: 100%;
+  width: 110%;
 }
 
 .outcome-list {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .outcome-item {
+  display: flex;
+  gap: 1rem;
   font-size: 1.4rem;
-}
-
-.course:hover {
 }
 
 .course-img {
