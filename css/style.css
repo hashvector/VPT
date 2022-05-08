@@ -141,7 +141,6 @@
 .outcome {
   position: absolute;
   top: 0;
-  transform: translateX(100%);
   z-index: 1;
   color: #fbf3ef;
   background: #495057;
@@ -149,6 +148,14 @@
   height: 100%;
   width: 105%;
   border-radius: 0.9rem;
+}
+
+.outcome--right {
+  transform: translateX(100%);
+}
+
+.outcome--left {
+  transform: translateX(-105%);
 }
 
 .outcome-list {
